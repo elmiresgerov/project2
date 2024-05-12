@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./stylee.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dolist">
+        <div class="head"></div>
+        <h1>To-Do List</h1>
+        <i class="fa-solid fa-arrow-down-short-wide sort"></i>
+        <div class="listdiv">
+                <ol id="alllist">
+                    
+                </ol>    
+        </div>
+        <div id="listform">
+            <input type="text"  placeholder="Add new task" id="input"><i class="fa-solid fa-xmark removeinput"></i>
+            <button class="btn" onclick="Add()"><i class="fa-solid fa-plus"></i>Add</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+</body>
+</html>
